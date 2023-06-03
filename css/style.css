@@ -1,0 +1,272 @@
+body {
+    font-family: 'Greycliff CF';
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+ul, li {
+    padding: 0; 
+    margin: 0;
+}
+b, strong {
+    font-weight: 600;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 40px 0px;
+}
+
+.navbar-nav.custome-nav li a.nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #575757;
+    padding: 0px 25px;
+}
+
+.primary-btn {
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: #4E4E4E 0% 0%;
+    box-shadow: none;
+    border: none;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 8px 44px;
+}
+.sign-btn {
+    border-radius: 20px;
+}
+
+.body-content {
+    background-color: #fcfcfc;
+    padding: 70px 0px 180px 0px;
+}
+
+h1 {
+    color: #474747;
+    text-align: center;
+    font-weight: bold;
+    font-size: 43px;
+    padding-bottom: 40px;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+}
+
+.wrapper .contain {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.wrapper .contain-box:first-child {
+    margin-right: 12px;
+}
+
+.contain-box {
+    width: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 25px;
+    padding: 16px 23px 30px 23px;
+    cursor: pointer;
+}
+
+.box-head {
+    display: flex;
+}
+
+.box-head .icon {
+    margin-right: 28px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contain-box p {
+    font-size: 15px;
+    color: #383838;
+    line-height: 18px;
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+
+.contain-box p span {
+    font-weight: bold;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.wrapper .contain-box.w-full:first-child {
+    margin-right: 0px;
+}
+
+.continue-btn {
+    background-color: #606060;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 13px 24px;
+    display: flex;
+    margin-left: auto;
+}
+
+.continue-btn span img {
+    width: 18px;
+    margin-left: 12px;
+}
+
+footer {
+    background-color: #F0F0F0;
+    padding: 40px 0px;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    font-size: 18px;
+    color: #3A3A3A;
+    text-decoration: none;
+}
+
+footer .menu li {
+    margin-left: 50px;
+}
+
+footer .menu li:first-child {
+    margin-left: 0px;
+}
+
+footer .menu li a:hover {
+    color: #00A0B2;
+}
+
+footer ul.social-media {
+    justify-content: flex-end;
+}
+
+footer .social-media li {
+    margin-left: 27px;
+}
+
+.footer-btm {
+    margin-top: 40px;
+}
+
+.footer-btm p{
+    font-size: 15px;
+    margin: 0px;
+    text-align: center;
+}
+
+.footer-btm p:first-child {
+   margin-bottom: 8px; 
+}
+
+.footer-btm p a {
+   color: #00A0B2;
+   text-decoration: none;
+}
+
+.contain-box .white-img {
+    display: none;
+}
+
+.selected .blue-img {
+    display: none;
+}
+
+.selected .white-img {
+    display: block;
+}
+.selected {
+    background-color: #00A4B6;
+    color: #fff;
+}
+.selected p {
+    color: #fff;
+}
+
+/*------- Responsive ---------*/
+@media (max-width: 767.98px) { 
+    .wrapper .contain-box:first-child {
+        margin-right: 0px;
+    }
+    
+    .contain-box {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .wrapper .contain {
+        display: flex;
+        margin-bottom: 0px;
+        flex-flow: column;
+    }
+    .continue-btn {
+        width: 100%;
+    }
+    .continue-btn span {
+        display: none;
+    }
+    .continue-btn {
+        border-radius: 25px;
+        justify-content: center;
+    }
+    footer {
+        display: none;
+    }
+    .body-content {
+        background-color: #fff;
+        padding: 0px 0px 75px 0px;
+    }
+    h1 {
+        font-size: 25px;
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+    header {
+        background-color: #ffffff;
+        padding: 30px 0px;
+        width: 90%;
+        margin: auto;
+    }
+    .navbar-toggler {
+        padding: 0px;
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .toggle-icon-main {
+        display: flex;
+        flex-flow: column   ;
+    }
+    .toggle-icon {
+        width: 32px;
+        height: 4px;
+        display: inline-block;
+        border-radius: 5px;
+        background-color: #00A4B6;
+        margin-bottom: 7px;
+    }
+    .box-head .icon {
+        width: 33px;
+    }
+    .box-head .icon img {
+        width: 100%;
+    }
+ }
